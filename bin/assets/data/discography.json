@@ -1,0 +1,13 @@
+﻿[
+  {
+    "id": "album-001",
+    "title": "繧ｵ繝ｳ繝励Ν繧｢繝ｫ繝舌Β",
+    "date": "2025-03-01",
+    "cover": "assets/images/default-cover.svg",
+    "artists": ["Example Artist"],
+    "tracks": [
+      { "track_no": 1, "id": "sample-track-001" }
+    ],
+    "description": "繝・Δ繧｢繝ｫ繝舌Β"
+  }
+]

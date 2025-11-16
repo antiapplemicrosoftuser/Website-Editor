@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<BorderPane fx:controller="com.example.ruichiji.MainController"
+            xmlns:fx="http://javafx.com/fxml">
+  <left>
+    <VBox spacing="8" style="-fx-padding:8;">
+      <Label text="Content"/>
+      <Button text="Topics" onAction="#onTopics" maxWidth="120"/>
+      <Button text="Music" onAction="#onMusic"  maxWidth="120"/>
+      <Button text="Movie" onAction="#onMovie"  maxWidth="120"/>
+      <Button text="Discography" onAction="#onDiscography" maxWidth="120"/>
+      <Button text="Live" onAction="#onLive" maxWidth="120"/>
+    </VBox>
+  </left>
+
+  <center>
+    <StackPane fx:id="centerPane"/>
+  </center>
+</BorderPane>
